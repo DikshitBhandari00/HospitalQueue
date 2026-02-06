@@ -36,7 +36,7 @@ namespace UIHandler {
             }
 
             std::cout << "(" << heap[i].name << ", " << heap[i].priority << ") ";
-            count++;
+            count++
 
             if (count == itemsInLevel) {
                 std::cout << std::endl;
