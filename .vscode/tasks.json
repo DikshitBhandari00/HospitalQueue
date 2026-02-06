@@ -1,0 +1,38 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build and Run HospitalQueue",
+			"type": "shell",
+			"command": "g++ -o HospitalQueue main.cpp PriorityQueue.cpp UIHandler.cpp && HospitalQueue",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Build HospitalQueue",
+			"type": "shell",
+			"command": "g++ -o HospitalQueue main.cpp PriorityQueue.cpp UIHandler.cpp",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Build HospitalQueue",
+			"type": "shell",
+			"command": "g++ -o HospitalQueue main.cpp PriorityQueue.cpp UIHandler.cpp",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		}
+	]
+}
