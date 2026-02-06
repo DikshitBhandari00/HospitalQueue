@@ -14,7 +14,7 @@ void displayMenu() {
 }
 
 int main() {
-    EmergencyRoom er;
+    EmergencyRoom er
     int choice;
 
     while (true) {
