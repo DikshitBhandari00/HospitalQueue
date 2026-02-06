@@ -24,7 +24,7 @@ void EmergencyRoom::heapifyDown(int index) {
         int largest = index;
 
         if (leftChild < size && heap[leftChild].priority > heap[largest].priority) {
-            largest = leftChild;
+            largest = leftChild
         }
         if (rightChild < size && heap[rightChild].priority > heap[largest].priority) {
             largest = rightChild;
