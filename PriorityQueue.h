@@ -7,7 +7,7 @@
 // Class to manage the Emergency Room using a Max-Heap
 class EmergencyRoom {
 private:
-    std::vector<Patient> heap; // Vector to store the heap
+    std::vector<Patient>heap ; // Vector to store the heap
 
     // Helper functions for heap operations
     void heapifyUp(int index);   // Maintain heap property after insertion
